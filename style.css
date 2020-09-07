@@ -1,0 +1,47 @@
+.wrap{
+    padding: 30px;
+    width: 600px;
+    max-width: 80%;
+    margin: auto;
+    background: #eee;
+    padding: 15px;
+    position: relative;
+}
+#quiz-container{
+}
+#probable-answers{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+button{
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    background: blue;
+}
+.controls{
+     margin-top: 10px;
+     text-align: center;
+}
+.controls button{
+    width: 50%;
+}
+button.correct{
+    background: green;
+}
+button.wrong{
+    background: red;
+}
+.hide{
+    display: none !important;
+}
+#cancel-btn{
+    background: transparent;
+    color: red;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
